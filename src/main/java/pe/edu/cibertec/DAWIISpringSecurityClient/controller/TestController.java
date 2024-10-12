@@ -19,8 +19,8 @@ public class TestController {
         return "Bienvenido Gestor";
     }
 
-    @PutMapping("/general")
+    @PutMapping("/paciente")
     public String generalApi() {
-        return "Bienvenidos";
+        return "Bienvenido Paciente";
     }
 }
