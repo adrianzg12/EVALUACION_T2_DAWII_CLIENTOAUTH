@@ -21,6 +21,6 @@ public class TestController {
 
     @PutMapping("/paciente")
     public String generalApi() {
-        return "Bienvenido Paciente";
+        return "Bienvenido Pacientes";
     }
 }
